@@ -15,8 +15,8 @@ function FarmerBuyerSection() {
             <li>Stable income and reduced market risks</li>
             <li>Access to a wide network of potential buyers</li>
           </ul>
-          <button 
-            onClick={() => setShowFarmerLogin(true)} 
+          <button
+            onClick={() => setShowFarmerLogin(true)}
             className="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300"
           >
             Farmer Login
@@ -29,7 +29,7 @@ function FarmerBuyerSection() {
             <li>Ensure consistent supply of quality produce</li>
             <li>Streamlined contract management and payments</li>
           </ul>
-          <button 
+          <button
             onClick={() => setShowBuyerLogin(true)}
             className="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300"
           >
