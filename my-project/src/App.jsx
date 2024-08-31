@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/hero';
 import FarmerBuyerSection from './components/FarmerBuyerSection';
-import ProductListingForm from './components/ProductListingForm';
+// import ProductListingForm from './components/ProductListingForm';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <main className="flex-grow">
         <Hero />
         <FarmerBuyerSection />
-        <ProductListingForm />
+        {/* <ProductListingForm /> */}
       </main>
       <Footer />
     </div>
