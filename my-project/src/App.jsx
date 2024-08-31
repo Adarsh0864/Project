@@ -4,6 +4,7 @@ import Header from './components/Header';
 import FarmerBuyerSection from './components/FarmerBuyerSection';
 import MarketplacePage from './components/MarketplacePage';
 import WeatherReport from './components/WeatherReport';
+import ContractPage from './components/ContractPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<FarmerBuyerSection />} />
             <Route path="/marketplace" element={<MarketplacePage />} />
+            <Route path="/contract" element={<ContractPage />} />
           </Routes>
         </main>
         <footer className="bg-green-600 text-white py-4 mt-auto">

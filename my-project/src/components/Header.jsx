@@ -21,6 +21,7 @@ function Header() {
               </button>
             </li>
             <li><Link to="/about" className="hover:text-green-200">About</Link></li>
+            <li><Link to="/contract" className="hover:text-green-200">Contract</Link></li>
           </ul>
         </nav>
       </div>
