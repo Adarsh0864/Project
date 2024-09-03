@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LoginPage from './LoginPage';
+import LoginPage from './Signup';
 
 function FarmerBuyerSection() {
   const [showFarmerLogin, setShowFarmerLogin] = useState(false);
@@ -19,7 +19,7 @@ function FarmerBuyerSection() {
             onClick={() => setShowFarmerLogin(true)}
             className="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300"
           >
-            Farmer Login
+            Farmer SignUp
           </button>
         </div>
         <div className="bg-green-50 p-8 rounded-lg shadow-md max-w-md">
@@ -33,7 +33,7 @@ function FarmerBuyerSection() {
             onClick={() => setShowBuyerLogin(true)}
             className="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300"
           >
-            Buyer Login
+            Buyer SignUp
           </button>
         </div>
       </div>

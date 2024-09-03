@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({ openSignup }) {
   const [showContacts, setShowContacts] = useState(false);
 
   return (
@@ -22,6 +22,8 @@ function Header() {
             </li>
             <li><Link to="/about" className="hover:text-green-200">About</Link></li>
             <li><Link to="/contract" className="hover:text-green-200">Contract</Link></li>
+            <li><Link to="/signin" className="hover:text-green-200">Sign In</Link></li>
+            <li><button onClick={openSignup} className="hover:text-green-200 focus:outline-none">Sign Up</button></li>
           </ul>
         </nav>
       </div>
